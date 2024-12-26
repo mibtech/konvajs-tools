@@ -1,13 +1,13 @@
 import './App.css'
-import Signing from "./tools/signature/Signing.tsx";
+import Signing from "./tools/Signing.tsx";
 
 function App() {
 
   return (
-      <>
-          <h3>Signin demo:</h3>
-          <Signing/>
-      </>
+    <>
+      <h3>Signin demo:</h3>
+      <Signing/>
+    </>
   )
 }
 
